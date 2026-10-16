@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+
+[[mods]]
+modId="raidglow"
+version="1.0.0"
+displayName="Raid Glow"
+description='''
+Reyd moblarini F10 tugmasi bilan yoritadi.
+'''
+
+[[dependencies.raidglow]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.raidglow]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
